@@ -1,0 +1,123 @@
+
+.head-div{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #FFC0CB;
+    border-radius: 50%;
+    left: 35%;
+    top: 80px;
+    border: 10px solid black;
+    z-index: 100;
+}
+
+.eye1{
+    position: absolute;
+    transform: translate(-20%, -20%);
+    top: 200px;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    z-index: 100;
+}
+
+.eye2{
+    position: absolute;
+    transform: translate(-20%, -20%);
+    top: 200px;
+    left: 53%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid black;
+    z-index: 100;
+}
+
+.eye-inner1{
+    position: absolute;
+    transform: translate(-1%, -1%);
+    top: 200px;
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 100;
+}
+
+.eye-inner2{
+    position: absolute;
+    transform: translate(-1%, -1%);
+    top: 200px;
+    left: 53%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 100;
+}
+
+.nose{
+    position: absolute;
+    left: 42%;
+    top: 330px;
+    width: 203px;
+    height: 110px;
+    border-radius: 35%;
+    background-color: rgb(252, 126, 179);
+    border: 2px solid black;
+    z-index: 100;
+}
+
+.nose-inner1
+{
+    position: absolute;
+    left: 44%;
+    top: 360px;
+    width: 45px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 100;
+}
+
+.nose-inner2
+{
+    position: absolute;
+    left: 50%;
+    top: 360px;
+    width: 45px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: black;
+    z-index: 100;
+}
+
+.ear1{
+    position: absolute;
+    transform: translate(-260%, -260%);
+    left: 55%;
+    bottom: 30%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FFC0CB;
+    border: 10px solid black;
+    z-index: 10;
+}
+
+.ear2{
+    position: absolute;
+    left: 55%;
+    bottom: 71.5%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #FFC0CB;
+    border: 10px solid black;
+}
+
