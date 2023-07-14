@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(238, 235, 235);
+}
+.process-line {
+    padding: 10px;
+  }
+  
+  .step-1 {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #279600;
+    border: 3px solid black;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .step-1:hover  {
+    background-color: white;
+    color: black;
+  }
+
+  
+  .step {
+    display: inline-block;
+    margin-left: -4px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(247, 249, 251);
+    border: 3px solid black;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .step:hover  {
+    background-color: #279600;
+    color: aliceblue;
+  }
+
+  .line {
+    display: inline-block;
+    width: 150px;
+    border: none;
+    border-top: 3px solid black;
+    margin-left: -4px;
+  }
+
+
+  .process-title{
+    display:  inline-block;
+    margin-left: 70px;
+  }
+
+.table {
+    width: 700px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(247, 249, 251);
+    margin-left: 50px;
+    margin-top: 12px;
+    padding: .5%;
+    position: relative; /* Add position: relative */
+  }
+  
+
+  .table::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -1px;
+    height: 100%;
+    width: 5px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+  } 
+
+.check-box{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.text-for-table {
+    display:  inline-block;
+    margin-left: 0px;
+}
+
+  #Border-AlgoExpert::before {
+    background-color: #626ee3;
+  }
+  #Border-AlgoExpert:hover{
+    background: linear-gradient(to left, #626ee3, rgb(247, 249, 251));
+
+  }
+  #AlgoExpert {
+    color: #626ee3;
+  }
+#Border-SystemsExpert::before {
+    background-color: #890023;
+
+  }
+
+  #Border-SystemsExpert:hover{
+    background: linear-gradient(to left, #890023, rgb(247, 249, 251));
+  }
+
+#SystemsExpert{
+    color: #890023;
+}
+  
+  #Border-OMLExpert::before {
+    background-color: #f37f1b ;
+
+  }
+  
+  #Border-OMLExpert:hover{
+    background: linear-gradient(to left, #f37f1b, rgb(247, 249, 251));
+  }
+  
+#OMLExpert{
+    color: #f37f1b;
+}
+  #Border-FrontendExpert::before {
+    background-color: #11967e ;
+
+  }
+  
+  #Border-FrontendExpert:hover{
+    background: linear-gradient(to left, #11967e, rgb(247, 249, 251));
+  }
+
+  #FrontendExpert{
+    color: #11967e;
+  }
+  button{
+    margin-left: 45%;
+    margin-top: 1%;
+    border-radius: 10%;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(1, 1, 80);
+    color: aliceblue;
+  }
