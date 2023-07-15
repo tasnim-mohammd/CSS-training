@@ -32,6 +32,11 @@ button{
     color: aliceblue;
     border-radius: 10px;
 }
+ button:hover
+ {
+    background-color: aliceblue;
+    color: #02203C;
+ }
 
 .image{
     height: 100px;
@@ -41,27 +46,73 @@ button{
 }
 
 .Nmae{
-    transform: translate(32%, -145%);
+
+    transform: translate(36%, -145%);
     font-size: x-large;
     margin-top: -74px;
 }
 
 .Nmae-with-extra{
     display: inline-block;
-    transform: translate(61%, -470%);
+    transform: translate(116%, -509%);
     font-size: x-large;
-    white-space: pre;
 }
 .extra{
     display: inline-block;
-    transform: translate(135%, -703%);
+    transform: translate(77%, -513%);
+        font-size: x-large;
 }
 
 .details{
-    transform: translate(36%, -248%);
+    transform: translate(36%, -125%);
     font-size: x-large;
 }
+
+#details2{
+    height: 50px;
+    width: 330px;
+}
+
+#details3{
+    width: 110px;
+    transform: translate(174.5%, -906%);
+}
+
 .time{
-    transform: translate(65%, -240%);
-    font-size: large
+    font-size: large; 
+    font-style: italic;
+}
+#time1{
+
+    margin-top: -77px;
+    margin-left: 212px;
+
+}
+
+#time2{
+    margin-top: -71px;
+    margin-left: 238px;
+}
+#time3{
+    margin-top: -305px;
+    transform: translate(74%, -9%);
+}
+
+.div3 {
+    transform: translate(7.5%, -3%);
+    width: 294px;
+    height: 20px;
+}
+
+.nnn{
+    transform: translate(101%, -660%);
+    display: inline-block;
+    font-size: x-large;
+}
+
+.mmm{
+    transform: translate(46%, -692%);
+    display: inline-block;
+    font-size: large;
+    width: 210px;
 }
