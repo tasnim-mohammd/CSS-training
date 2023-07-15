@@ -1,0 +1,51 @@
+.all-shape {
+    margin: 110px;
+    margin-left: 370px;
+}
+.Antennas{
+    margin-left: 180px;
+    margin-bottom: -5px;
+}
+.circular-head{
+    border-radius: 50%;
+    background-color: #FFA500;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 2;
+
+}
+.pillar{
+    margin-left: 18px;
+    transform: translate(0px, -5px);
+    width: 15px;
+    height: 40px;
+    background-color: #808080;
+    position: relative;
+    z-index: 1;
+}
+
+.head
+{
+    border-radius: 10%;
+    background-color: #A4D9EB;
+    border: 8px solid #9BBCC2;
+    width: 400px;
+    height: 400px;
+}
+
+.eyes
+{
+    border: 8px solid #00B3FF;
+    width: 90px;
+    height: 90px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-top: 60px;
+        position: relative;
+    left: 60px;
+}
+
+.eye2 {
+    transform: translateX(-10px); /* Adjust the translation value as desired */
+}
