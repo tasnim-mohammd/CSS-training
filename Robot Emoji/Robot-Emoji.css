@@ -1,10 +1,12 @@
 .all-shape {
     margin: 110px;
     margin-left: 370px;
+    position: relative;
+
 }
 .Antennas{
-    margin-left: 180px;
-    margin-bottom: -5px;
+  margin-left: 203px;
+  margin-bottom: -5px;
 }
 .circular-head{
     border-radius: 50%;
@@ -32,20 +34,87 @@
     border: 8px solid #9BBCC2;
     width: 400px;
     height: 400px;
+    position: relative;
+    left: 20px;
 }
 
-.eyes
-{
+.eyes {
     border: 8px solid #00B3FF;
     width: 90px;
     height: 90px;
     background-color: aliceblue;
     border-radius: 50%;
     margin-top: 60px;
-        position: relative;
+    position: relative;
     left: 60px;
 }
 
-.eye2 {
-    transform: translateX(-10px); /* Adjust the translation value as desired */
+#eye2 {
+    margin-top: -106px;
+    left: 233px;
+}
+
+.nose {
+    width: 0px;
+    height: 0px;
+    transform: translate(147px, 21px);
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid #C90A0A;
+    position: relative;
+}
+  
+.mouth {
+    width: 255px;
+    height: 65px;
+    background-color: #dedede;
+    border: 1px solid black;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 37px;
+    left: 45%;
+    transform: translateX(-41%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+  }
+  
+ .tooth {
+    width: 10px;
+    background-color: black;
+    height: 100%;
+    position: relative;
+    left: 0px;
+  }
+  
+  .tooth:first-child,
+  .tooth:last-child {
+    margin: 0 20px;
+  } 
+
+  .ears {
+    position: absolute;
+    top: 61%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 416px;
+    justify-content: center;
+  }
+  
+  .ear {
+    width: 20px;
+    height: 100px;
+    background-color: #c90a0a;
+    
+  }
+  
+  #ear-left {
+    border-top-left-radius: 25%;
+    border-bottom-left-radius: 25%;
+  }
+  
+  #ear-right {
+    border-top-right-radius: 25%;
+    border-bottom-right-radius: 25%;
 }
